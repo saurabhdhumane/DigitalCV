@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Redressed&display=swap');
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    /* font-family: 'Redressed', cursive; */
+    max-width: 50%;
+    margin: auto;
+    color: #333;
+    text-align: justify;
+}
+
+/* header section stylling start here */
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.face{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.title{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.name{
+    text-transform: capitalize;
+    color: gray;
+}
+
+.surname{
+    text-transform: capitalize;
+    color: coral;
+}
+
+.qualification{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.Details{
+    color: coral;
+}
+
+.Details a{
+    color: coral;
+    text-decoration: none;
+}
+
+.hrline{
+    border: 1px solid coral;
+}
+
+.table-heading{
+    display: block;
+    text-transform: uppercase;
+    min-width: 300px;
+}
+
+.div-heading{
+    font-size: 22px;
+    color: coral;
+}
+
+.table-container{
+    margin-top: 22px;
+}
+
+.container-title{
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.container-duration{
+    font-style: italic;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.container-description{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
